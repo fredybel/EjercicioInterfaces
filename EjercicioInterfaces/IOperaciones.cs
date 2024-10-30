@@ -3,13 +3,12 @@ namespace EjercicioInterfaces
 {
     public interface IOperaciones
     {
-        public void Kilometros();
-        public void Millas();
-        public void Circulo();
-        public void Cuadrado();
+        public double Kilometros();
+        public double Millas();
+        public double Circulo();
+        public double Rectangulo();
 
-        public void Volumen();
+        public double Volumen();
 
-        public void Imprimir();
     }
 }
