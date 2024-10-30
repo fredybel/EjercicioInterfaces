@@ -9,5 +9,7 @@ namespace EjercicioInterfaces
         public void Cuadrado();
 
         public void Volumen();
+
+        public void Imprimir();
     }
 }
