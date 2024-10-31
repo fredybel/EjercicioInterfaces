@@ -12,6 +12,7 @@ namespace EjercicioInterfaces
         public double N1;
         public double N2;
         public double Radio;
+        public double Metros;
 
         //Circulo solo lleva N1
         public double Circulo()
@@ -26,12 +27,12 @@ namespace EjercicioInterfaces
 
         public double Kilometros()
         {
-            return N1 + 0.001;
+            return Metros * 0.001;
         }
 
         public double Millas()
         {
-            return N1 * 0.006;
+            return Metros * 0.006;
         }
         
         //volumen de un cubo
